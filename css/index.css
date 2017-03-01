@@ -1,0 +1,58 @@
+/*.header,.banner,.main,.footer {margin: 0; padding: 0;}
+ul,li,ol {list-style: none;}
+a {text-decoration: none;}
+html,body {height: 100%;}*/
+
+/* header */
+.header {width: 100%; height: 81px;}
+.header .header_content {width: 1440px; height: 81px; background-color: #fff; border-bottom: 1px solid #c1c1c1; margin: 0 auto;}
+.header_content .logo {float: left; margin-left: 115px;}
+.header_content .nav {float: right; margin-right: 105px;}
+.header_content .nav li {float: left; font: 15px/50px "微软雅黑";  padding-right: 30px;}
+.header_content .nav li a {color: #333333;}
+.header_content .nav li a:hover { color: #fa798d;}
+/* banner */
+.banner {width: 100%; height: 501px; margin-top: 30px;}
+.banner .banner_content {width: 1440px; height: 501px; background-color: #fff;  margin: 0 auto;}
+/* main */
+.main {width: 100%; height: 2206px;}
+.main .main_content {width: 1440px; height: 2206px; background-color: #fff; margin: 0 auto;}
+.main_content .main_one {width: 1440px; height: 421px;}
+.main_content .main_one .tip1 {width: 433px; height: 100px; margin-left: 504px; text-align: center; font: 28px "微软雅黑"; color: #000;}
+.main_content .main_one p {margin-bottom: -10px; padding-top: 42px;}
+.main_content .main_one .one_content {width: 1302px; height: 250px; margin-left: 139px;}
+.main_content .main_one .one_content .one {width: 261px; height: 250px; float: left; margin-right: 46px;}
+.main_content .main_one .one_content .one img {margin: 6px 71px 0;}
+.main_content .main_one .one_content .one .tip {font: 20px/30px "微软雅黑"; color: #575755; text-align: center; margin-top: -40px;}
+.main_content .main_one .one_content .one .desc {font: 12px/17px "微软雅黑"; color: #575755; text-align: center;}
+.main_content .main_two {width: 1440px; height: 485px; background: url(../img/index_22.png); overflow: hidden}
+.main_two .desc {width: 1323px; height: 605px; margin: 122px 0 0 117px;}
+.main_two .desc .desc_one {width: 286px; height: 308px; overflow: hidden; float: left; margin: 0 20px 20px 0;}
+.main_two .desc .desc_one .desc_content {width: 267px; height: 286px; margin: 10px 0 0 10px;}
+.main_two .desc .desc_one .desc_content .desc_tip {font: 17px/27px "微软雅黑"; color: #000; text-align: center;}
+.main_two .desc .desc_one .desc_content .infor {font: 12px/19px "微软雅黑"; color: #000;}
+.main_content .main_three {width: 1440px; height: 452px;}
+.main_content .main_three .tip1 {width: 433px; height: 100px; margin-left: 504px; margin-bottom: 20px; text-align: center; font: 28px "微软雅黑"; color: #000;}
+.main_content .main_three p {margin-bottom: -10px; padding-top: 42px;}
+.main_content .main_four {width: 1440px; height: 521px; background: url(../img/index_2.png) repeat-y; overflow: hidden;}
+.main_content .main_four img {margin: 0 83px 0 131px; float: left;}
+.main_content .main_four p {font: 14px/20px "微软雅黑"; color: #fff;}
+.main_content .main_four .main_title {font-size: 20px; margin: 54px 0 20px; padding-top: 10px;}
+.main_content .main_four .last {width: 83px; height: 33px; border: 1px solid #fff; border-radius: 4px; float: left; text-align: center; line-height: 33px; margin-top: 10px;}
+.main_content .main_five .tip1 {width: 433px; height: 100px; margin-left: 504px; text-align: center; font: 28px "微软雅黑"; color: #000;}
+.main_content .main_five p {margin-bottom: -10px; padding-top: 42px;}
+.main_content .main_five img {margin: 30px 20px 70px 0;}
+
+/* footer */
+.footer {width: 100%; height: 422px;}
+.footer .footer_content {width: 1440px; height: 422px; background-color: #393e44; border-top: 10px solid #d73d3d; margin: 0 auto;}
+.footer_content .img {margin: 115px 110px 155px 135px; float: left;}
+.footer_content .line {width: 6px; height: 219px; background: url(../img/about_19.png); margin: 66px 57px 0 0; float: left;}
+.footer_content .about_us {width: 248px; height: 219; margin-top: 66px; float: left;} 
+.footer_content .about_us li {font:20px/49px "微软雅黑"; color: #a3a1a4;}
+.footer_content .about_us img {vertical-align: middle; padding-right: 6px;}
+.footer_content .about_us li ul li {font: 12px/27px "微软雅黑"; padding-left: 6px;}
+.footer_content .about_us .title span {padding-left: 50px;}
+.footer_content .stop {width: 1440px; height: 76px; background-color: #2f3239; float: left;}
+.footer_content p {font: 12px/76px "微软雅黑"; color: #6d6e70; margin-left: 119px;}
+.footer_content span {color: #a09c9b; margin-left: -40px;}
